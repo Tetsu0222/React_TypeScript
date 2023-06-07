@@ -6,7 +6,8 @@ import './index.css';
 //import Name from './components/Name' 
 //import Message from './components/Message' 
 //import Parent from './components/ContainerSample' 
-import Page from './components/ContextSample' 
+//import Page from './components/ContextSample' 
+import CounterUseState from './components/CounterUseState' 
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -15,7 +16,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <Page />
+      <CounterUseState />
   </React.StrictMode>
 );
 
