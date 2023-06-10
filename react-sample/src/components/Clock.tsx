@@ -81,7 +81,7 @@ export const Clock = () => {
                 <span>:{ timestamp.toLocaleString( locale ) }</span>
                 <select
                     value={ locale }
-                    onChange={ ( e ) => setLocale( getLocaleFromString( e.target.value ))}>
+                    onChange={ ( e ) => setLocale( getLocaleFromString( e.target.value ) )}>
                         <option value="en-US">en-US</option>
                         <option value="ja-JP">ja-JP</option>
                     </select>
