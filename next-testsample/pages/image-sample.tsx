@@ -8,9 +8,10 @@
 
 import{ NextPage } from 'next';
 import Image from 'next/image';
-
+/*
 //画像ファイルをインポートする。
 import BibleImage from '../public/images/cat-g5f098016c_640.jpg'
+
 
 const ImageSample : NextPage<void> = ( props ) => {
     return (
@@ -24,5 +25,6 @@ const ImageSample : NextPage<void> = ( props ) => {
         </div>
     )
 }
+*/
 
-export default ImageSample
+//export default ImageSample
