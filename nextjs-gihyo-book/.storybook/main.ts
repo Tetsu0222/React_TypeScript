@@ -14,4 +14,10 @@ const config: StorybookConfig = {
     autodocs: "tag",
   },
 };
+
+//オプション追加
+module.exports = {
+  staticDirs:[ 'public' ],
+}
+
 export default config;
